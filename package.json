@@ -1,0 +1,25 @@
+{
+  "name": "web3js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.19.0",
+    "coingecko-api": "^1.0.5",
+    "cors": "^2.8.5",
+    "crypto-news-api": "^2.2.2",
+    "ethereumjs-tx": "^1.3.7",
+    "express": "^4.16.4",
+    "mongoose": "^5.5.4",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.11",
+    "web3": "^1.0.0-beta.53"
+  }
+}
