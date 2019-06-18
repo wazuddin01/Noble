@@ -13,7 +13,6 @@ const CoinGecko = require("coingecko-api");
 const CryptoNewsAPI = require("crypto-news-api").default;
 const writeFile = util.promisify(fs.writeFile);
 const readFile = util.promisify(fs.readFile);
-// 6d03dcc3-dcb6-4908-ab3b-9cd6d1f0c199
 // const ganache = "http://127.0.0.1:7545";
 
 //Initiate the CoinGecko API Client
